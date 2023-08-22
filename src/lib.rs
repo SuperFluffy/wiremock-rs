@@ -154,6 +154,7 @@ mod request;
 mod respond;
 mod response_template;
 mod verification;
+mod websocket;
 
 pub use mock::{Match, Mock, MockBuilder, Times};
 pub use mock_server::{MockGuard, MockServer, MockServerBuilder};
